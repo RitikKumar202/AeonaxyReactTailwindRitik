@@ -47,7 +47,7 @@ function App() {
           </div>
         )}
       </div>
-      <div className='w-full h-screen mt-10 lg:mt-0 flex flex-col items-center justify-evenly'>
+      <div className='w-full h-screen flex flex-col items-center justify-evenly'>
         <div className="flex flex-col items-center justify-center">
           {currentStep === 1 && (
             <PersonalizationPage
